@@ -47,7 +47,7 @@
     "buildData:reforged": "node src/buildData.ts reforged public/regulation-reforged-v1.4.9P.js",
     "buildData:convergence": "node src/buildData.ts convergence public/regulation-convergence-v2.2.3.js",
     "rebuildWeaponData": "yarn buildData:latest && yarn buildData:reforged && yarn buildData:convergence",
-    "stats": "node --disable-warning=ExperimentalWarning src/stat-optimizer/run.ts"
+    "stats": "node --disable-warning=ExperimentalWarning src/stat-optimizer/generate-csv.ts"
   },
   "eslintConfig": {
     "extends": [
